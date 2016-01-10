@@ -30,37 +30,7 @@ public class Product {
         //this.config = config;
     }
 
-    //public String getName() {
-     //   return name;
-    //}
 
-    //public void setName(String name) {
-     //   this.name = name;
-   // }
-
-    //public double getMaterial() {
-    //    return material;
-    //}
-
-    //public void setMaterial(double material) {
-    //    this.material = material;
-    //}
-
-    //public double getLaser() {
-     //   return laser;
-    //}
-
-    //public void setLaser(double laser) {
-     //   this.laser = laser;
-    //}
-
-    //public double getNetPrice() {
-     //   return material + laser;
-    //}
-
-    //public void setNetPrice(double netPrice) {
-     //   this.netPrice = material + laser;
-    //}
     private static String numberFormat(double number) { //Making double to string to show only two decimal places
         return String.format("%.2f", number);
     }
